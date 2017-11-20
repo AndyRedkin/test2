@@ -15,7 +15,7 @@
 // CSS files to inject in order
 //
 // (if you're using LESS with the built-in default config, you'll want
-//  to change `assets/styles/importer.less` instead.)
+//  to change `assets/styles/app.scss` instead.)
 var cssFilesToInject = [
   'styles/**/*.css'
 ];
