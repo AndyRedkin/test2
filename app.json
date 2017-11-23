@@ -1,0 +1,19 @@
+/*For heroku service*/
+{
+  "name": "test2",
+  "description": "test2",
+  "scripts": {
+  },
+  "env": {
+  },
+  "formation": {
+  },
+  "addons": [
+    "heroku-postgresql"
+  ],
+  "buildpacks": [
+    {
+      "url": "heroku/nodejs"
+    }
+  ]
+}
