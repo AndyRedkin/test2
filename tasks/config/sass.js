@@ -10,7 +10,7 @@
  * dependencies, mixins, variables, resets, etc. before other stylesheets)
  *
  * For usage docs see:
- *   https://github.com/gruntjs/grunt-contrib-sass
+ *   https://github.com/gruntjs/grunt-sass
  *
  */
 module.exports = function(grunt) {
@@ -27,5 +27,5 @@ module.exports = function(grunt) {
     }
   });
 
-  grunt.loadNpmTasks('grunt-contrib-sass');
+  grunt.loadNpmTasks('grunt-sass');
 };
