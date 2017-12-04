@@ -1,5 +1,5 @@
 module.exports.routes = {
     '/': {
-        view: 'homepage'
+        view: 'pages/index'
     },
 };
