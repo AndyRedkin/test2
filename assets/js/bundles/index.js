@@ -1,3 +1,5 @@
+// import '../system/lib';
+import Vue from 'vue';
 import header from '../components/main/header';
 import footer from '../components/main/footer';
 
@@ -8,7 +10,7 @@ new Vue({
 
     },
     components: {
-        'header': header,
-        'footer': footer
+        'header-block': header,
+        'footer-block': footer
     }
 });

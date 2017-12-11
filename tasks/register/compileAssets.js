@@ -13,11 +13,12 @@
  */
 module.exports = function (grunt) {
     grunt.registerTask('compileAssets', [
+        'babel:dev',
         'clean:dev',
         'jst:dev',
         'sass:dev',
         'copy:dev',
         'coffee:dev',
-        'babel:dev'
+        'webpack:dev'
     ]);
 };

@@ -12,10 +12,11 @@
  */
 module.exports = function (grunt) {
     grunt.registerTask('syncAssets', [
+        'babel:dev',
         'jst:dev',
         'sass:dev',
         'sync:dev',
         'coffee:dev',
-        'babel:dev'
+        'webpack:dev'
     ]);
 };

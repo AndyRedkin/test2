@@ -1,0 +1,1 @@
+import Vue from '../../../node_modules/vue';
